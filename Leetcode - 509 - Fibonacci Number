@@ -1,3 +1,4 @@
+//So whats asked in this is they give an input value n ...and we have to tell in the fibonacci series what number is present at the nth sequence...Like if number is 2...it will tell the value present at f(2)...Series starts from f(0)
 class Solution {
     public int fib(int n) {
         if(n==0){
@@ -19,7 +20,7 @@ firstterm=secondterm;
 secondterm=thirdterm;
 
     }
-    // return thirdterm ;
+    // return 1st term ;
    return firstterm;
     }
 }
